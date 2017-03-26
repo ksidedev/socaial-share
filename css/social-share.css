@@ -1,0 +1,413 @@
+.share .button {
+  font-size: 24px;
+  line-height: 2em;
+  text-align: center;
+  width: 40px;
+}
+.share .button i.fa {
+  padding: 6px 5px;
+}
+.share .button.twitter {
+  color: white;
+  background: #5EA9DD;
+}
+.share .button.twitter a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share .button.twitter .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share .button.twitter .counter:empty {
+  display: none;
+}
+.share .button.twitter:hover {
+  background: #7bb9e3;
+}
+.share .button.twitter:hover .counter {
+  background: #51a2da;
+}
+.share .button.twitter .counter {
+  background: #3493d4;
+}
+.share .button.twitter .counter:hover {
+  background: #51a2da;
+}
+.share .button.google-plus {
+  color: white;
+  background: #CD3C2A;
+}
+.share .button.google-plus a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share .button.google-plus .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share .button.google-plus .counter:empty {
+  display: none;
+}
+.share .button.google-plus:hover {
+  background: #d85342;
+}
+.share .button.google-plus:hover .counter {
+  background: #c03827;
+}
+.share .button.google-plus .counter {
+  background: #a33021;
+}
+.share .button.google-plus .counter:hover {
+  background: #c03827;
+}
+.share .button.pinterest {
+  color: white;
+  background: #BC071B;
+}
+.share .button.pinterest a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share .button.pinterest .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share .button.pinterest .counter:empty {
+  display: none;
+}
+.share .button.pinterest:hover {
+  background: #de0820;
+}
+.share .button.pinterest:hover .counter {
+  background: #ad0619;
+}
+.share .button.pinterest .counter {
+  background: #8b0514;
+}
+.share .button.pinterest .counter:hover {
+  background: #ad0619;
+}
+.share .button.facebook {
+  color: white;
+  background: #4966B6;
+}
+.share .button.facebook a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share .button.facebook .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share .button.facebook .counter:empty {
+  display: none;
+}
+.share .button.facebook:hover {
+  background: #627bc0;
+}
+.share .button.facebook:hover .counter {
+  background: #4560ab;
+}
+.share .button.facebook .counter {
+  background: #3a5292;
+}
+.share .button.facebook .counter:hover {
+  background: #4560ab;
+}
+.share .button.linkedin {
+  color: white;
+  background: #1783BC;
+}
+.share .button.linkedin a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share .button.linkedin .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share .button.linkedin .counter:empty {
+  display: none;
+}
+.share .button.linkedin:hover {
+  background: #1b99dc;
+}
+.share .button.linkedin:hover .counter {
+  background: #157aae;
+}
+.share .button.linkedin .counter {
+  background: #11638f;
+}
+.share .button.linkedin .counter:hover {
+  background: #157aae;
+}
+.share .button.stumbleupon {
+  color: white;
+  background: #EA4B24;
+}
+.share .button.stumbleupon a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share .button.stumbleupon .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share .button.stumbleupon .counter:empty {
+  display: none;
+}
+.share .button.stumbleupon:hover {
+  background: #ed6645;
+}
+.share .button.stumbleupon:hover .counter {
+  background: #e84016;
+}
+.share .button.stumbleupon .counter {
+  background: #c83713;
+}
+.share .button.stumbleupon .counter:hover {
+  background: #e84016;
+}
+.share.image .button.twitter {
+  color: white;
+  background: gray;
+  opacity: 0.5;
+}
+.share.image .button.twitter a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share.image .button.twitter .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share.image .button.twitter .counter:empty {
+  display: none;
+}
+.share.image .button.twitter:hover {
+  opacity: 1;
+  background: #5EA9DD;
+}
+.share.image .button.twitter:hover .counter {
+  background: #3493d4;
+}
+.share.image .button.twitter .counter {
+  background: #676767;
+}
+.share.image .button.twitter .counter:hover {
+  background: #3493d4;
+}
+.share.image .button.google-plus {
+  color: white;
+  background: gray;
+  opacity: 0.5;
+}
+.share.image .button.google-plus a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share.image .button.google-plus .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share.image .button.google-plus .counter:empty {
+  display: none;
+}
+.share.image .button.google-plus:hover {
+  opacity: 1;
+  background: #CD3C2A;
+}
+.share.image .button.google-plus:hover .counter {
+  background: #a33021;
+}
+.share.image .button.google-plus .counter {
+  background: #676767;
+}
+.share.image .button.google-plus .counter:hover {
+  background: #a33021;
+}
+.share.image .button.pinterest {
+  color: white;
+  background: gray;
+  opacity: 0.5;
+}
+.share.image .button.pinterest a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share.image .button.pinterest .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share.image .button.pinterest .counter:empty {
+  display: none;
+}
+.share.image .button.pinterest:hover {
+  opacity: 1;
+  background: #BC071B;
+}
+.share.image .button.pinterest:hover .counter {
+  background: #8b0514;
+}
+.share.image .button.pinterest .counter {
+  background: #676767;
+}
+.share.image .button.pinterest .counter:hover {
+  background: #8b0514;
+}
+.share.image .button.facebook {
+  color: white;
+  background: gray;
+  opacity: 0.5;
+}
+.share.image .button.facebook a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share.image .button.facebook .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share.image .button.facebook .counter:empty {
+  display: none;
+}
+.share.image .button.facebook:hover {
+  opacity: 1;
+  background: #4966B6;
+}
+.share.image .button.facebook:hover .counter {
+  background: #3a5292;
+}
+.share.image .button.facebook .counter {
+  background: #676767;
+}
+.share.image .button.facebook .counter:hover {
+  background: #3a5292;
+}
+.share.image .button.linkedin {
+  color: white;
+  background: gray;
+  opacity: 0.5;
+}
+.share.image .button.linkedin a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share.image .button.linkedin .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share.image .button.linkedin .counter:empty {
+  display: none;
+}
+.share.image .button.linkedin:hover {
+  opacity: 1;
+  background: #1783BC;
+}
+.share.image .button.linkedin:hover .counter {
+  background: #11638f;
+}
+.share.image .button.linkedin .counter {
+  background: #676767;
+}
+.share.image .button.linkedin .counter:hover {
+  background: #11638f;
+}
+.share.image .button.stumbleupon {
+  color: white;
+  background: gray;
+  opacity: 0.5;
+}
+.share.image .button.stumbleupon a {
+  color: inherit;
+  display: block;
+  width: 100%;
+  outline: 0;
+}
+.share.image .button.stumbleupon .counter {
+  font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+  line-height: 1em;
+  padding: 2px 0px 1px 0px;
+}
+.share.image .button.stumbleupon .counter:empty {
+  display: none;
+}
+.share.image .button.stumbleupon:hover {
+  opacity: 1;
+  background: #EA4B24;
+}
+.share.image .button.stumbleupon:hover .counter {
+  background: #c83713;
+}
+.share.image .button.stumbleupon .counter {
+  background: #676767;
+}
+.share.image .button.stumbleupon .counter:hover {
+  background: #c83713;
+}
+
+/*horizontal styling*/
+.horizontal .share .button {
+  display: inline-block;
+  margin-right: 4px;
+}
+.horizontal .share.counter-top .button {
+  vertical-align: bottom;
+}
+.horizontal .share.counter-bottom .button {
+  vertical-align: top;
+}
+
+/* jsFiddle example */
+.post {
+  margin-left: 10px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-seriff;
+}
+.post p {
+  font-size: 20px;
+}
+.post .example {
+  margin-top: 20px;
+}
+.post .example.image {
+  position: relative;
+}
+.post .example.image .share {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
